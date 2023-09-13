@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(40, 2, 22);
+            display: block;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blank">
+        <img src=" " id="photo" alt="" height="400px" width="600px">
+    </div>
+    <div class="picture">
+        <img src="/Js/doggy1.png" onclick="f1()" alt="" height="100px" width="100px"> <br>
+        <img src="/Js/doggy6.jpeg" onclick="f2()" alt="" height="100px" width="100px"> <br>
+        <img src="/Js/doggy3.png" onclick="f3()" alt="" height="100px" width="100px"> <br>
+        <button class="btn" >Click here</button>
+    </div>
+
+</body>
+<script>
+    var img = document.getElementById("photo")
+
+    function f1() {
+        img.src = "doggy1.png"
+    }
+
+    function f2() {
+        img.src = "doggy6.jpeg"
+    }
+
+    function f3() {
+        img.src = "doggy3.png"
+    }
+
+
+</script>
+fx all banane se bhi nhi hua
+
+
+</html>

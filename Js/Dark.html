@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <style>
+        .para {
+            /* background-color: white; */
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn {
+            font-size: 32px;
+
+        }
+
+        .dark-mode {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    </div>
+    <div class="para">
+
+        <div>
+            <button class="btn" onclick="Dark()">Enable Dark Mode</button>
+            <p>Hello We are unicorns</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        function Dark() {
+            var FullPage = document.body
+            FullPage.classList.toggle("dark-mode");
+        }
+        function Light() {
+            var FullPage = document.body
+            FullPage.classList.remove("dark-mode");
+        }
+
+    </script>
+</body>
+
+</html>

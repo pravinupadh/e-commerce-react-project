@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Button</title>
+    <style>
+        body {
+            background-color: rgb(40, 2, 22);
+            display: block;
+            object-fit: contain;
+        }
+
+        .controls {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .data {
+            width: 30%;
+            height: 40vh;
+        }
+
+        .Kaamwala {
+            height: 200px;
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="controls">
+        <div>
+            <video src=" " id="blank" controls muted height="450px" width="750"></video>
+        </div>
+        <div class="data">
+            <video class="Kaamwala" src="./Video/1.mp4" onclick="v1()" type="video/mp4"></video>
+            <video class="Kaamwala" src="./Video/2.mp4" onclick="v2()" type="video/mp4"></video>
+            <video class="Kaamwala" src="./Video/3.mp4" onclick="v3()" type="video/mp4"></video>
+            <video class="Kaamwala" src="./Video/4.mp4" onclick="v4()" type="video/mp4"></video>
+            <video class="Kaamwala" src="./Video/5.mp4" onclick="v5()" type="video/mp4"></video>
+        </div>
+
+    </div>
+    <script>
+        var clip = document.getElementById("blank")
+
+        function v1() {
+            clip.src = "./Video/1.mp4";
+        }
+        function v2() {
+            clip.src = "./Video/2.mp4";
+        }
+        function v3() {
+            clip.src = "./Video/3.mp4";
+        }
+        function v4() {
+            clip.src = "./Video/4.mp4";
+        }
+        function v5() {
+            clip.src = "./Video/5.mp4";
+        }
+    </script>
+
+</body>
+
+</html>
