@@ -2,7 +2,26 @@
 
 In the project directory, you can run:
 
+////////////////////////
 
+## Coding Challenge's
+
+### Requirement Specification
+
+### ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) Definition
+
+We're building an employee storage service for companies.
+
+A company admin needs to be able to:
+- create employee records for company,
+- view them in a list and detail view for company,
+- update the employee records and delete them for company,
+- find the average salary for the company
+
+
+
+
+///////////////////////////////////
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png)  Requirements
 - VS Code
 - React Js
